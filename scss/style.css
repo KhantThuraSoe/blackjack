@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ff9f04;
+  text-shadow: 0 0 3px #075200;
+  background: -webkit-gradient(linear, left top, right top, from(#09fde9), to(#21aeff));
+  background: linear-gradient(to right, #09fde9, #21aeff);
+  width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container {
+  width: auto;
+  height: auto;
+  margin: 2rem auto;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container h1 {
+  padding-bottom: 5px;
+  color: black;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 5px #ffc227, -2px -2px 5px #a87900;
+  border-bottom: 4px solid #050505;
+}
+
+body .container .sum span {
+  margin: auto 5px;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-shadow: 0 0 0.5rem goldenrod;
+}
+
+body .container .message {
+  margin: 1rem;
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+body .container .card-container {
+  margin: 1rem;
+  width: 400px;
+  height: 200px;
+  background: url("./table.jpg") center/cover no-repeat, #017019;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 4px solid white;
+  border-radius: 1rem;
+}
+
+body .container .card-container .card {
+  margin: 2px;
+  width: 60px;
+  height: 80px;
+  border: none;
+  border-radius: 3px;
+  text-shadow: 0 4px 15px #000000fa, -4px 0 -15px #000000dc;
+}
+
+body .container .btn {
+  margin: 0.5rem;
+  width: 12rem;
+  height: 2.5rem;
+  color: black;
+  background-color: #ff9f04;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+body .container .btn:hover {
+  -webkit-box-shadow: 0 0 10px #000000d3;
+          box-shadow: 0 0 10px #000000d3;
+  color: #000000d5;
+}
+/*# sourceMappingURL=style.css.map */

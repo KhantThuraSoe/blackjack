@@ -28,7 +28,7 @@ function getRandomCard() {
 	return random;
 }
 let card1 = getRandomCard();
-console.log(card1.src);
+// console.log(card1.src);
 // function formatCard(card) {
 // 	switch (card) {
 // 		case 'A':

@@ -60,7 +60,8 @@ body {
 			width: 400px;
 			height: 200px;
 			// background-color: $background-pri;
-			background: url('./table.jpg') center/cover no-repeat, $background-pri;
+			background: url('../images/table.jpg') center/cover no-repeat,
+				$background-pri;
 			@include flexin(row);
 			flex-wrap: wrap;
 			border: 4px solid white;
